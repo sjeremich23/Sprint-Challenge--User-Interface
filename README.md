@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML elements describe its meaning in a readable and structured way.  It allows other people to be able to identify the layout and elements in a understandable way and be able to accurately describe the purpose of the elements being used and the content that is inside them.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Block level elements is HTML elements that begins a new line and extends the full width of its parent element.  They can contain inline elements and other block-level elements.
+
+Inline elements can begin a new line, does not start a new line and it's width only extends as far as it is defined by its tags.
 
 3. What are the 4 areas of the box model?
 
+Margin, Border, Padding, Content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a popular version control system which allows developers to create history of changes that occur over time in their code.  It allows you to revert code files to a previous version, compare code changes over time, allow others to work on small scale and large scale projects by branching off and merging everything together.  Developers rely on Git version controlling to develop several types of commercial and non-commercial projects.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
