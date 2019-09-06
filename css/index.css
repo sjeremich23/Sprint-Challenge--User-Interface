@@ -86,7 +86,7 @@ audio,
 video {
     margin: 0;
     padding: 0;
-    /* border: 0; */
+    border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
@@ -139,7 +139,7 @@ body {
 }
 
 h1,
-h2,
+h2, 
 h3,
 h4,
 h5 {
@@ -172,8 +172,19 @@ p {
 }
 
 .text-container2 {
-    padding: 0 1%;
+    display: flex;
+    justify-content: space-between;
+    padding:  1%;
     padding-bottom: 20px;
+}
+
+.text-container-about {
+    padding:  1%;
+    padding-bottom: 20px;
+}
+
+div .card h2 {
+    padding: 10px 0;
 }
 
 .middle-content {
@@ -236,9 +247,9 @@ footer nav a {
     text-decoration: none;
 }
 
-* {
+/* * {
     border: 1px solid green;
-} 
+}  */
 
 /* Navigation Bar */
 nav {
@@ -379,4 +390,26 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* --------------------------------- */
+/* cards on about.html */
+
+.card {
+    width: 390px;;
+    padding: 0 2% 0 0;
+    padding-bottom: 20px;
+}
+
+/* --------------------------------- */
+/* buttons */
+
+button {
+    margin: 20px 10px;
+    width: 125px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;background-color: white;
 }
