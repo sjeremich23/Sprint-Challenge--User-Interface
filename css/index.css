@@ -190,7 +190,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -232,9 +232,9 @@ footer nav a {
 }
 
 /* --------------------------------- */
-* {
+/* * {
     border: 1px solid green;
-}
+} */
 /* --------------------------------- */
 
 /* Navigation Bar */
@@ -257,5 +257,12 @@ nav a:hover {
 .navigation-bar {
     display: flex;
     justify-content: space-between;
+    margin-top: 25px;
 }
 /* --------------------------------- */
+
+/* Header */
+
+header {
+    margin: 25px 0px;
+}
