@@ -140,105 +140,41 @@ header {
 
 /* Boxes 1-10  */
 
-.box1 {
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
     background: teal;
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.box2 {
+.box:nth-child(2) {
     background: gold;
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.box3 {
+.box:nth-child(3) {
     background: cadetblue;
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.box4 {
+.box:nth-child(4) {
     background: coral;
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.box5 {
+.box:nth-child(5) {
     background: crimson;
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.box6 {
+.box:nth-child(6) {
     background: forestgreen;
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.box7 {
+.box:nth-child(7) {
     background: darkorchid;
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.box8 {
+.box:nth-child(8) {
     background: hotpink;
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.box9 {
+.box:nth-child(9) {
     background: indigo;
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.box10 {
+.box:nth-child(10) {
     background: dodgerblue;
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* --------------------------------- */
